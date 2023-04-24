@@ -34,6 +34,8 @@ h3 {
   bottom: 30px;
   z-index: 9999;
   cursor: pointer;
+  width: 30%;
+  height: 30%;
 }
 
 .whatsapp-btn-svg {
