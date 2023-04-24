@@ -30,6 +30,8 @@ h3 {
 /* Estilos para o botão do WhatsApp */
 .whatsapp-btn {
   position: fixed;
+  right: 0px;
+  bottom: 0px;
   z-index: 9999;
   cursor: pointer;
   height: 25%; /* Ajuste a altura desejada */
