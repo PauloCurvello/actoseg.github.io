@@ -43,9 +43,10 @@
             <div class="row">
                 <div class="col-lg-6">
                     <img src="imagens/logo acto seguros.png" alt="Logo" class="logo">
-                    <h1><strong>Teste3</strong></h1>
+                    <h1><strong>Teste4</strong></h1>
                     <h1><strong>Mais segurança para você, mais economia para o seu bolso</strong></h1>
-                    <p>Com o nosso serviço de cotação online, você pode comparar as melhores seguradoras em um só lugar e <strong>escolher a opção que melhor atende às suas necessidades e ao seu bolso</strong>.</p>
+                    <p>Com o nosso serviço de cotação online, você pode comparar as melhores seguradoras em um só lugar
+                        e <strong>escolher a opção que melhor atende às suas necessidades e ao seu bolso</strong>.</p>
                     <a href="#" class="gradient-button">SOLICITAR COTAÇÃO GRÁTIS</a>
                 </div>
                 <div class="col-lg-6">
@@ -61,7 +62,8 @@
         <section class="container h-100" style="padding: 20px 0px;">
             <div class="row h-100">
                 <div class="col-md-4">
-                    <p style="font-size: 18px; font-weight: 600;">O mais completo entre os melhores e <br>com diversas coberturas e serviços.</p>
+                    <p style="font-size: 18px; font-weight: 600;">O mais completo entre os melhores e <br>com diversas
+                        coberturas e serviços.</p>
                 </div>
                 <div class="col-md-8">
                     <div class="d-flex flex-column flex-md-row justify-content-between">
@@ -82,7 +84,7 @@
                             <p>Cotação grátis</p>
                         </div>
                     </div>
-                </div>                
+                </div>
             </div>
         </section>
     </div>
@@ -149,7 +151,7 @@
             </div>
         </div>
     </section>
-    
+
 
     <section class="steps-section">
         <div class="container">
@@ -376,6 +378,12 @@
             loop: false,
             autoplay: false,
             path: 'whatsapp.json'
+        });
+
+        // Adiciona a classe CSS ao SVG após a animação ser carregada
+        animation.addEventListener('DOMLoaded', function () {
+            var svg = document.querySelector('#whatsappBtn svg');
+            svg.classList.add('whatsapp-btn');
         });
 
         // Define a ação a ser tomada quando o botão do WhatsApp é clicado
