@@ -36,6 +36,11 @@ h3 {
   cursor: pointer;
 }
 
+#whatsappBtn {
+  width: 25%; /* Ajuste a largura desejada */
+  height: 25%; /* Ajuste a altura desejada */
+}
+
 /* Seção Nossos Serviços */
 .bg-gradient-azul {
   background: linear-gradient(to right, #1d3557, #0088cc);
