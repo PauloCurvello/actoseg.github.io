@@ -1,0 +1,364 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  color: white;
+}
+
+i {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-size: 38px;
+  line-height: 140%;
+  letter-spacing: 0%;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 24px;
+  padding-top: 20px;
+}
+
+/* Estilos para o botão do WhatsApp */
+.whatsapp-btn {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+/* Seção Nossos Serviços */
+.bg-gradient-azul {
+  background: linear-gradient(to right, #1d3557, #0088cc);
+}
+
+.card {
+  background-color: rgba(217, 217, 217, 0.5);
+  transition: transform 0.2s ease-in-out;
+  color: white;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.btn-animation {
+  background-color: #fff;
+  color: #0A192F;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-animation:hover {
+  background-color: #0A192F;
+  color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Seção Como Funciona? */
+.steps-section {
+  background-image: url(imagens/fundo\ com\ dots.jpg);
+  background-color: white;
+  padding: 100px 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.step-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.step-number {
+  position: absolute;
+  top: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-image: linear-gradient(to bottom, #103F71, rgba(16, 63, 113, 0.58));
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.step-card-inner {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.step-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.step-description {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.step-card::before {
+  content: '';
+  position: absolute;
+  right: calc(50% + 30px);
+  top: 50%;
+  transform: translateY(-50%);
+  height: 2px;
+  width: calc(50% - 30px);
+  background-color: #d2d2d2;
+  z-index: 0;
+}
+
+.step-card:last-child::before {
+  display: none;
+}
+
+.step-card::after {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -30px;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 10px solid #d2d2d2;
+  border-bottom: 10px solid transparent;
+  z-index: 1;
+}
+
+/* Seção Por quê a ActoSeg? */
+#secao-por-que-a-actoseg {
+  background-image: url('imagens/fundo\ da\ seção.jpg');
+  background-size: cover;
+  background-position: center center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 800px;
+}
+
+#por-que-actoseg {
+  padding-right: 300px;
+  font-size: 18px;
+}
+
+/* Seção Perguntas & Respostas */
+#perguntas-e-respostas {
+  padding: 50px 0px;
+}
+
+/* Rodapé */
+.bg-gradient-dark {
+  background: linear-gradient(45deg, #000, #222);
+}
+
+.social-icons a {
+  font-size: 1.5rem;
+}
+
+.social-icons a i {
+  transition: color 0.3s;
+}
+
+.social-icons a:hover i {
+  color: #007bff;
+}
+
+/* Seção Apresentação Serviços */
+.bg-azul {
+  background-color: #001B42;
+  color: white;
+}
+
+.bg-azul .row {
+  align-items: center;
+}
+
+.serviceIcon {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+/* Primeira seção */
+.section-wrapper {
+  background-image: url('imagens/imagem do carro.png');
+  background-size: cover;
+  background-position: center;
+  padding: 4rem 0;
+}
+
+.logo {
+  max-width: 100px;
+  margin-bottom: 1rem;
+}
+
+.hidden-image {
+  display: none;
+  width: 100vw;
+  height: auto;
+  object-fit: contain;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.gradient-button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(to right, #1D5BB4, #5878A5);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.gradient-button:hover {
+  transform: scale(1.1);
+}
+
+/* RESPONSIVIDADE */
+@media screen and (max-width: 1024px) {
+
+  /* Seção Perguntas & Respostas */
+  #perguntas-e-respostas {
+    padding: 50px 0px;
+  }
+
+  /* Seção Por quê a ActoSeg? */
+  #secao-por-que-a-actoseg {
+    max-height: 800px;
+  }
+
+  #por-que-actoseg {
+    padding-right: 100px;
+    font-size: 18px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+
+  /* Primeira Seção */
+  .section-wrapper {
+    background-image: none;
+    padding-bottom: 0px;
+    padding-left: 20px;
+  }
+
+  .hidden-image {
+    display: block;
+  }
+
+  /* Seção de serviços */
+  .bg-azul{
+    padding: 35px 20px;
+  }
+
+  /* Seção Por quê a ActoSeg? */
+  #por-que-actoseg {
+    font-size: 18px;
+    padding-left: 50px;
+  }
+
+  #secao-por-que-a-actoseg{
+    background-image: none;
+  }
+
+  /* Seção Como Funciona? */
+  .step-card {
+    padding-left: 0;
+  }
+
+  .step-number {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .step-card::before {
+    right: auto;
+    left: calc(50% + 30px);
+  }
+
+  .step-card::after {
+    right: auto;
+    left: -30px;
+    border-top: 10px solid #d2d2d2;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid #d2d2d2;
+  }
+}
+
+@media screen and (max-width: 425px) {
+
+  /* Seção Perguntas & Respostas */
+  #perguntas-e-respostas {
+    padding: 50px 20px;
+  }
+
+  button {
+    font-size: 20px !important;
+  }
+
+  .accordion-body {
+    font-size: 20px !important;
+  }
+
+  /* Seção Por quê a ActoSeg? */
+  #secao-por-que-a-actoseg {
+    background-image: url('imagens/fundo\ da\ seção.jpg');
+    background-size: cover;
+    background-position: center right;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  #por-que-actoseg {
+    font-size: 22px;
+    padding: 50px 20px;
+  }
+
+  /* Seção Nossos Serviços */
+  .bg-gradient-azul {
+    padding: 50px 20px;
+  }
+
+  /* Seção Nossas seguradoras parceiras */
+  #parceiros {
+    padding: 50px 20px;
+  }
+}

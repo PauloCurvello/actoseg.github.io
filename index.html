@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seguro de Automóveis</title>
+    <!-- Referência ao CSS do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- Importa a fonte Poppins do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/b7c633d7ce.js" crossorigin="anonymous"></script>
+
+    <!-- Seu CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="imagens/logo acto seguros.png">
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KPP6JGK');</script>
+    <!-- End Google Tag Manager -->
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KPP6JGK" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="whatsapp-btn" id="whatsappBtn"></div>
+
+    <!-- Primeira Seção -->
+    <div class="section-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="imagens/logo acto seguros.png" alt="Logo" class="logo">
+                    <h1><strong>Mais segurança para você, mais economia para o seu bolso</strong></h1>
+                    <p>Com o nosso serviço de cotação online, você pode comparar as melhores seguradoras em um só lugar e <strong>escolher a opção que melhor atende às suas necessidades e ao seu bolso</strong>.</p>
+                    <a href="#" class="gradient-button">SOLICITAR COTAÇÃO GRÁTIS</a>
+                </div>
+                <div class="col-lg-6">
+                    <!-- Espaço vazio -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="imagens/Cobertura contra colisão.jpg" alt="Cobertura contra colisão" class="hidden-image">
+
+    <!-- Seção Apresentação Serviços -->
+    <div class="bg-azul">
+        <section class="container h-100" style="padding: 20px 0px;">
+            <div class="row h-100">
+                <div class="col-md-4">
+                    <p style="font-size: 18px; font-weight: 600;">O mais completo entre os melhores e <br>com diversas coberturas e serviços.</p>
+                </div>
+                <div class="col-md-8">
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="text-center serviceIcon">
+                            <img src="imagens/icones/carro.png">
+                            <p>Cobertura contra colisão</p>
+                        </div>
+                        <div class="text-center serviceIcon">
+                            <img src="imagens/icones/maos.png">
+                            <p>Assistência 24 horas</p>
+                        </div>
+                        <div class="text-center serviceIcon">
+                            <img src="imagens/icones/pessoas.png">
+                            <p>Danos a terceiros</p>
+                        </div>
+                        <div class="text-center serviceIcon">
+                            <img src="imagens/icones/dinheiro.png">
+                            <p>Cotação grátis</p>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </section>
+    </div>
+
+    <section id="parceiros" style="padding-top: 100px; padding-bottom: 100px;">
+        <div class="container section">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2>Nossas seguradores parceiras</h2>
+                    <p>Encontre a cobertura perfeita para suas necessidades e para o seu bolso com a nossa cotação
+                        online. Não perca mais tempo procurando em diferentes sites, faça sua cotação grátis agora
+                        mesmo.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="imagens/logos das corretoras.jpg" class="img-fluid" alt="Imagem da seção">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gradient-azul">
+        <div class="container py-5">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <h2 class="mb-4 text-white">Nossos Serviços</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-4 rounded-3 text-center d-flex h-100">
+                        <img class="mx-auto" style="max-width: 30%;" src="imagens/icones/ciclo.png">
+                        <h3 class="fs-5 mb-3">Processo descomplicado</h3>
+                        <p class="mb-0">Nossas ferramentas simplificam o processo de comparação e cotação de diferentes
+                            apólices. Escolha entre opções que se adequam ao seu orçamento e estilo de vida.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-4 rounded-3 text-center d-flex h-100">
+                        <img class="mx-auto" style="max-width: 30%;" src="imagens/icones/contrato.png">
+                        <h3 class="fs-5 mb-3">Sem letras miúdas</h3>
+                        <p class="mb-0">Desenvolvemos conteúdos de qualidade para ajudar você a fazer a melhor escolha,
+                            com toda informação de que precisa.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-4 rounded-3 text-center d-flex h-100">
+                        <img class="mx-auto" style="max-width: 30%;" src="imagens/icones/olho.png">
+                        <h3 class="fs-5 mb-3">Você encontra o que precisa</h3>
+                        <p class="mb-0">Trabalhamos com uma enorme variedade de empresas. Você pode comparar os preços e
+                            os diferenciais dos produtos que procura.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-4 rounded-3 text-center d-flex h-100">
+                        <img class="mx-auto" style="max-width: 30%;" src="imagens/icones/suporte.png">
+                        <h3 class="fs-5 mb-3">Suporte online humanizado</h3>
+                        <p class="mb-0">Contamos com uma equipe de especialistas prontos para te atender online, caso
+                            você precise de ajuda.</p>
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <a href="#" class="btn btn-white btn-animation">CLIQUE AQUI EM SAIBA MAIS</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="steps-section">
+        <div class="container">
+            <h2 class="section-title" style="margin-bottom: 100px;">Como funciona?</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <div class="step-card-inner">
+                            <h3 class="step-title">Perfil</h3>
+                            <p class="step-description">Insira seus dados e informações do seu carro para receber a
+                                cotação personalizada.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <div class="step-card-inner">
+                            <h3 class="step-title">Comparação</h3>
+                            <p class="step-description">Consultor compartilha opções e preços para você escolher.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <div class="step-card-inner">
+                            <h3 class="step-title">Pagamento</h3>
+                            <p class="step-description">Escolheu o plano? Você pode pagar no boleto, débito em conta ou
+                                no cartão de crédito.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="step-card">
+                        <div class="step-number">4</div>
+                        <div class="step-card-inner">
+                            <h3 class="step-title">Pronto!</h3>
+                            <p class="step-description">Você recebe a apólice da seguradora e garante sua tranquilidade
+                                com a Minuto Seguros.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid section" id="secao-por-que-a-actoseg">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+
+            </div>
+            <div class="col-md-6 col-sm-12" id="por-que-actoseg">
+                <h2>Por que a ActoSeg?</h2>
+                <p>Conheça nossa corretora de seguros! Surgimos na pandemia para oferecer <strong>comodidade, facilidade
+                        de
+                        comparação, agilidade e preços competitivos</strong>.<br><br>
+
+                    Contrate um seguro sem sair de casa, utilizando nossa ferramenta de comparação com a ajuda de um
+                    especialista em seguros.<br><br>
+
+                    Escolha a opção ideal para suas necessidades e orçamento, com um processo simplificado e menos
+                    burocrático. <strong>Economize tempo e dinheiro</strong>, contrate agora mesmo com a Actoseg!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container" id="perguntas-e-respostas">
+            <h2 class="text-center mb-5">Perguntas & Respostas</h2>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <i class="fa-solid fa-arrow-right" style="margin-right: 10px;"></i> Qual é a cobertura
+                            básica do seguro de automóvel?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Resposta: A cobertura básica do seguro de automóvel inclui danos causados por colisão,
+                            incêndio, roubo ou furto e responsabilidade civil obrigatória.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <i class="fa-solid fa-arrow-right" style="margin-right: 10px;"></i> Como é calculado o valor
+                            do seguro do meu automóvel?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Resposta: O valor do seguro do seu automóvel é calculado com base em diversas informações,
+                            como modelo, marca, ano de fabricação, valor de mercado e perfil do motorista.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <i class="fa-solid fa-arrow-right" style="margin-right: 10px;"></i> Como faço para acionar o
+                            seguro em caso de sinistro?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Resposta: Em caso de sinistro, você deve entrar em contato com a corretora de seguros o mais
+                            rápido possível e informar os detalhes do ocorrido. A corretora irá orientá-lo sobre os
+                            próximos passos e documentos necessários para dar entrada no sinistro.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                            <i class="fa-solid fa-arrow-right" style="margin-right: 10px;"></i> Posso contratar
+                            coberturas adicionais ao seguro do meu automóvel?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Resposta: Sim, é possível contratar coberturas adicionais ao seguro do seu automóvel, como
+                            por exemplo, cobertura para danos a terceiros, vidros, acessórios, entre outras.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                            <i class="fa-solid fa-arrow-right" style="margin-right: 10px;"></i> Qual é o prazo de
+                            validade do seguro do meu automóvel?
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Resposta: O prazo de validade do seguro do seu automóvel é determinado na contratação e pode
+                            variar de acordo com a opção escolhida.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
+                            <i class="fa-solid fa-arrow-right" style="margin-right: 10px;"></i> É possível transferir o
+                            seguro de automóvel para outro veículo?
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Resposta: Sim, é possível transferir o seguro de automóvel para outro veículo desde que o
+                            mesmo atenda aos requisitos da seguradora e seja informado à corretora de seguros.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gradient-dark py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0 col-md-12">
+                    <div class="d-flex align-items-center">
+                        <div class="container">
+                            <div class="row">
+                                <img src="imagens/logo acto seguros pb.png" alt="Logo da Empresa" class="me-3"
+                                    style="max-width: 72px; margin-bottom: 10px;">
+                            </div>
+                            <div class="row">
+                                <p class="m-0 text-white">Com o nosso serviço de cotação online, você pode comparar as
+                                    melhores seguradoras em um só lugar e escolher a opção que melhor atende às suas
+                                    necessidades e ao seu bolso.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="social-icons d-flex justify-content-end">
+                        <a href="#" class="text-white me-2" style="margin-left: 10px;"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="text-white me-2" style="margin-left: 10px;"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="text-white me-2" style="margin-left: 10px;"><i
+                                class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col text-center">
+                    <p class="m-0 text-white">Termos de Uso & Políticas de Privacidade</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/lottie-web@5.7.12/build/player/lottie.min.js"></script>
+
+    <!-- Referência ao JS do Bootstrap (opcional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+    <script>
+        // Carrega a animação do botão do WhatsApp utilizando Lottie
+        var animation = bodymovin.loadAnimation({
+            container: document.getElementById('whatsappBtn'),
+            renderer: 'svg',
+            loop: false,
+            autoplay: false,
+            path: 'https://reclabmarketing.com//wp-content//uploads//2023//04//86147-whatsapp-button-call-attention-and-pause.json' // substitua pelo caminho do seu arquivo .json
+        });
+
+        // Define a ação a ser tomada quando o botão do WhatsApp é clicado
+        document.getElementById('whatsappBtn').addEventListener('click', function () {
+            window.location.href = 'https://wa.me/SEUNUMERODOTELEFONE'; // substitua pelo seu número de telefone
+        });
+
+        // Inicia a animação do botão do WhatsApp quando o documento é carregado
+        document.addEventListener('DOMContentLoaded', function () {
+            animation.play();
+        });
+    </script>
+</body>
+
+</html>
