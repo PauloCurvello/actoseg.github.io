@@ -34,8 +34,8 @@ h3 {
   bottom: 30px;
   z-index: 9999;
   cursor: pointer;
-  height: 10%; /* Ajuste a altura desejada */
-  width: 10%; /* Ajuste a largura desejada */
+  height: 30%; /* Ajuste a altura desejada */
+  width: 30%; /* Ajuste a largura desejada */
 }
 
 .whatsapp-btn svg {
