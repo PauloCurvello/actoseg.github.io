@@ -35,7 +35,6 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KPP6JGK" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-
     <div class="whatsapp-btn" id="whatsappBtn"></div>
 
     <!-- Primeira Seção -->
@@ -44,7 +43,6 @@
             <div class="row">
                 <div class="col-lg-6">
                     <img src="imagens/logo acto seguros.png" alt="Logo" class="logo">
-                    <h1><strong>Mais 6 Testes</strong></h1>
                     <h1><strong>Mais segurança para você, mais economia para o seu bolso</strong></h1>
                     <p>Com o nosso serviço de cotação online, você pode comparar as melhores seguradoras em um só lugar
                         e <strong>escolher a opção que melhor atende às suas necessidades e ao seu bolso</strong>.</p>
@@ -389,7 +387,7 @@
 
         // Define a ação a ser tomada quando o botão do WhatsApp é clicado
         document.getElementById('whatsappBtn').addEventListener('click', function () {
-            window.open('https://wa.me/SEUNUMERODOTELEFONE', '_blank'); // substitua pelo seu número de telefone
+            window.location.href = 'https://wa.me/SEUNUMERODOTELEFONE'; // substitua pelo seu número de telefone
         });
 
         // Inicia a animação do botão do WhatsApp quando o documento é carregado

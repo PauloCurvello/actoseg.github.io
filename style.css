@@ -34,11 +34,11 @@ h3 {
   bottom: 30px;
   z-index: 9999;
   cursor: pointer;
-  width: 30%;
-  height: 30%;
+  height: 30%; /* Ajuste a altura desejada */
+  width: 30%; /* Ajuste a largura desejada */
 }
 
-.whatsapp-btn-svg {
+.whatsapp-btn svg {
   width: 100%;
   height: 100%;
 }
